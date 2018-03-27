@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    }
+]

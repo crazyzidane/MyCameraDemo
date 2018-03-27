@@ -1,0 +1,7 @@
+#Tue Mar 27 21:38:20 CST 2018
+base.0=/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8886645e8b13a5baf0678e622c1d3497eb672c40
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b934694a3bcbf1e4f67e15544c1e9a6af34dcca/classes.dex
+base.1=/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b934694a3bcbf1e4f67e15544c1e9a6af34dcca
+file.0=/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8886645e8b13a5baf0678e622c1d3497eb672c40/classes.dex

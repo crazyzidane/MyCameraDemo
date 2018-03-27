@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/bf5db3efdd7a33670d85d221922c269bdbe10bdb/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/781d25d11049b85e1e2e9bc47d8f7fa6a4f46854/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/656b3d6404938c60ea716c00addbf4f4490c5f5c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/1fcca0ee5a2797425150d49cffc3d070022ec478/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/56689f4659dd885ab389fb18dd81a17a96247cef/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/60254ede89137856ba6ea653cda0d6da835620d8/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/a016bc6802fc33f04d57ffd90374ca9076f3c3cd/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/4663c5788b06964505bf8c4f1adcb5b464a48fd3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liushanpu/.android/build-cache/2d02b09df3f011edc5db93c56ddfd41ad16b619f/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.liushanpu.mycamerademo.MainActivity
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:12:9-23:20
+	android:name
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:16:27-74
+intent-filter#android.intent.category.DEFAULT+android.media.action.IMAGE_CAPTURE
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:20:25-74
+category#android.intent.category.DEFAULT
+ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml:21:27-73
+uses-sdk
+INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/bf5db3efdd7a33670d85d221922c269bdbe10bdb/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/781d25d11049b85e1e2e9bc47d8f7fa6a4f46854/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/656b3d6404938c60ea716c00addbf4f4490c5f5c/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/1fcca0ee5a2797425150d49cffc3d070022ec478/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/56689f4659dd885ab389fb18dd81a17a96247cef/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/60254ede89137856ba6ea653cda0d6da835620d8/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/a016bc6802fc33f04d57ffd90374ca9076f3c3cd/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/4663c5788b06964505bf8c4f1adcb5b464a48fd3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liushanpu/.android/build-cache/2d02b09df3f011edc5db93c56ddfd41ad16b619f/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/bf5db3efdd7a33670d85d221922c269bdbe10bdb/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/781d25d11049b85e1e2e9bc47d8f7fa6a4f46854/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/656b3d6404938c60ea716c00addbf4f4490c5f5c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/1fcca0ee5a2797425150d49cffc3d070022ec478/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/56689f4659dd885ab389fb18dd81a17a96247cef/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/60254ede89137856ba6ea653cda0d6da835620d8/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/a016bc6802fc33f04d57ffd90374ca9076f3c3cd/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/4663c5788b06964505bf8c4f1adcb5b464a48fd3/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/AndroidManifest.xml:26:9-47
