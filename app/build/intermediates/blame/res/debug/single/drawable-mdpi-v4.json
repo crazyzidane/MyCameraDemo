@@ -12,12 +12,12 @@
         "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png",
         "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/liushanpu/.android/build-cache/07b2cfd27d8075426d22e295380122849203dd0f/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
