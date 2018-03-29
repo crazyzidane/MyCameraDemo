@@ -1,4 +1,0 @@
-#Thu Mar 29 20:51:06 CST 2018
-base.0=/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
-renamed.0=classes.dex
-file.0=/Users/liushanpu/AndroidStudioProjects/MyCameraDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex
