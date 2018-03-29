@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mImageView = (ImageView) findViewById(R.id.iv_showPicture);
         //mFilePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath();
-        mFilePath = Environment.getExternalStorageDirectory() + "/images/" + System.currentTimeMillis() + ".jpg";
+        mFilePath = Environment.getExternalStorageDirectory() + "/liusp_images/" + System.currentTimeMillis() + ".jpg";
         android.util.Log.d(TAG, "mFilePath=" + mFilePath);
     }
 
