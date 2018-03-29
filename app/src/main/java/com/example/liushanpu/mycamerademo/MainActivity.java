@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mImageView = (ImageView) findViewById(R.id.iv_showPicture);
+        verifyStoragePermission(this);
+
         //mFilePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath();
         mFilePath = Environment.getExternalStorageDirectory() + "/liusp_images/" + System.currentTimeMillis() + ".jpg";
         android.util.Log.d(TAG, "mFilePath=" + mFilePath);
@@ -79,16 +81,26 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap bitmap = (Bitmap) bundle.get("data");
                 mImageView.setImageBitmap(bitmap);
             } else if (requestCode == REQ_CODE_CAMERA_2) {
+                //This will get origin image, not thumbnail photo.
                 FileInputStream fis = null;
+                Bitmap bitmap = null;
                 try {
                     fis = new FileInputStream(mFilePath);
-                    Bitmap bitmap = BitmapFactory.decodeStream(fis);
-                    mImageView.setImageBitmap(bitmap);
+                    bitmap = BitmapFactory.decodeStream(fis);
+                    if (bitmap != null)
+                        mImageView.setImageBitmap(bitmap);
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 } finally {
                     try {
-                        fis.close();
+                        if (fis != null)
+                            fis.close();
+                        if (!bitmap.isRecycled()) {
+                            //使用recycle和gc会crash，   Canvas: trying to use a recycled bitmap android.graphics.Bitmap@4fc3650
+                            //bitmap.recycle();
+                            bitmap = null;
+                            //System.gc();
+                        }
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -97,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //add the Runtime Permission after Android L
     public static void verifyStoragePermission(Activity activity) {
         int permission = ActivityCompat.checkSelfPermission(activity, "android.permission.WRITE_EXTERNAL_STORAGE");
         if (permission != PackageManager.PERMISSION_GRANTED) {
