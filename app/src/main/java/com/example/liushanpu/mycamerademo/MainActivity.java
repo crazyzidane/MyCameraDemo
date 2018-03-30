@@ -1,5 +1,6 @@
 package com.example.liushanpu.mycamerademo;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -8,12 +9,15 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private static int REQ_CODE_CAMERA = 1;
     private static int REQ_CODE_CAMERA_2 = 2;
     private static final int REQ_CODE_EXTERNAL_STOREAGE = 3;
+    private static final int REQ_CAMERA_PERMISSION = 4;
 
     private String mFilePath;
 
@@ -69,6 +74,31 @@ public class MainActivity extends AppCompatActivity {
         android.util.Log.d(TAG, "contentUri=" + contentUri.toString());
         intent.putExtra(MediaStore.EXTRA_OUTPUT, contentUri);
         startActivityForResult(intent, REQ_CODE_CAMERA_2);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case REQ_CAMERA_PERMISSION:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    Intent intent = new Intent(this, CustomCamera.class);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(this, "Pls grant camera permission to use Camera", Toast.LENGTH_LONG).show();
+                }
+                return;
+        }
+    }
+
+    public void customCamera(View view) {
+        //startActivity(new Intent(this, CustomCamera.class));
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, REQ_CAMERA_PERMISSION);
+        } else {
+            Intent intent = new Intent(this, CustomCamera.class);
+            startActivity(intent);
+        }
     }
 
     @Override

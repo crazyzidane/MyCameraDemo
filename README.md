@@ -12,3 +12,7 @@
 
 ## 3、 file:// URI and FileProvider
 	from Android N, the file:// URI is not been used, it will throw FileUriExposedException and app will crash. Pls use FileProvider instead of it.
+
+## 4 、Custom Camera
+	use android.hardware.Camera to preview.
+	The preview View will use SurfaceView, because the real-time view frequency is 60fps.
