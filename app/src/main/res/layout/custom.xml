@@ -9,11 +9,26 @@
         android:text="Capture"
         android:onClick="capture"/>
 
-    <!-- The view will show real-time capture, the frequency is 60fps, is high,
-            so we use SurfaceView to show it.-->
-    <SurfaceView
-        android:id="@+id/preview"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+        <!-- The view will show real-time capture, the frequency is 60fps, is high,
+            so we use SurfaceView to show it.-->
+        <SurfaceView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to my camera"
+            android:textColor="#d11616"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="49dp" />
+    </RelativeLayout>
+
 
 </LinearLayout>

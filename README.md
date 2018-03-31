@@ -20,3 +20,7 @@
 ## 5、 Take picture
 	Use mCamera.takePicture to capture, do not forget to focus when take picture.
 	Need to do with store picture after take picture, through the onPictureTaken function of Camera.PictureCallback.
+
+## 6 、 Watermark
+	Add the watermark when preview, but did not write the watermark to the photo when store.
+	Pls think it when in idle.
