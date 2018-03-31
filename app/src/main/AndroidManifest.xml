@@ -38,6 +38,7 @@
         </provider>
 
         <activity android:name=".CustomCamera" />
+        <activity android:name=".ResultActivity" />
 
     </application>
 
