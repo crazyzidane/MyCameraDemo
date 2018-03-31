@@ -16,3 +16,7 @@
 ## 4 、Custom Camera
 	use android.hardware.Camera to preview.
 	The preview View will use SurfaceView, because the real-time view frequency is 60fps.
+
+## 5、 Take picture
+	Use mCamera.takePicture to capture, do not forget to focus when take picture.
+	Need to do with store picture after take picture, through the onPictureTaken function of Camera.PictureCallback.
